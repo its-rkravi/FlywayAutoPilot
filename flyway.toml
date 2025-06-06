@@ -29,3 +29,15 @@ ignoreNewlinesInTextObjects = "off"
 [environments.WorkingEnv]
 url = "jdbc:postgresql://localhost:5432/postgres"
 schemas = [ "public" ]
+
+[environments.nakshaMP]
+url = "jdbc:postgresql://localhost:5433/naksha_mp"
+schemas = [ "urban" ]
+
+[environments.nakshaAS]
+url = "jdbc:postgresql://localhost:5433/naksha_as"
+schemas = [ "urban" ]
+
+[environments.nakshaHR]
+url = "jdbc:postgresql://localhost:5433/naksha_hr"
+schemas = [ "urban" ]
