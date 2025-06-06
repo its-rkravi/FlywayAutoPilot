@@ -26,10 +26,6 @@ detectRenames = "identical-only"
 [redgateCompare.postgresql.options.ignores]
 ignoreNewlinesInTextObjects = "off"
 
-[environments.WorkingEnv]
-url = "jdbc:postgresql://localhost:5432/postgres"
-schemas = [ "public" ]
-
 [environments.nakshaMP]
 url = "jdbc:postgresql://localhost:5433/naksha_mp"
 schemas = [ "urban" ]
