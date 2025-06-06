@@ -1,0 +1,1 @@
+insert into public.master_user(username,address,created_by) values ('its_deepu','Bhopal , MP',1);
